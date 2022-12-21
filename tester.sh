@@ -73,4 +73,4 @@ phpinfo();' > /var/www/test.akshayyy.ml/info.php
 
 sudo apt install certbot python3-certbot-nginx -y
 
-# certbot run -n --nginx --agree-tos -d test.akshayyy.ml,www.test.akshayyy.ml  -m  akshay@riafy.me  --redirect
+certbot run -n --nginx --agree-tos -d test.akshayyy.ml,www.test.akshayyy.ml  -m  akshay@riafy.me  --redirect
