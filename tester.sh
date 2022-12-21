@@ -4,7 +4,7 @@
 sudo apt update -y
 sudo apt install nginx -y
 sudo apt install mysql-server -y
-sudo mysql_secure_installation -y
+#sudo mysql_secure_installation -y
 
 sudo apt install php7.4-fpm php-mysql -y
 
